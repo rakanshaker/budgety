@@ -254,7 +254,7 @@ var controller = (function(budgetCtrl, UICtrl) {
 
   var updatePercentages = function() {
     //1. calculate percentages
-    budgetCtrl.updatePercentages();
+    budgetCtrl.calculatePercentages();
     //2. read them from budget controller
     var percentages = budgetCtrl.getPercentages();
     //3. upodate the UI with new percentages
